@@ -3,8 +3,7 @@ command = "hugo"
 publish = "public"
 
 [build.environment]
-HUGO_VERSION = "0.147.8"
-
+HUGO_VERSION = "0.147.7"
 [context]
 [context.branch-deploy]
 command = "hugo -F -b $DEPLOY_PRIME_URL"
@@ -17,4 +16,4 @@ command = "hugo -F -b $DEPLOY_PRIME_URL"
 
 [context.production.environment]
   HUGO_ENV = "production"
-  HUGO_VERSION = "0.147.8"
+  HUGO_VERSION = "0.147.7"
