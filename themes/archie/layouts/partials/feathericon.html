@@ -1,0 +1,7 @@
+{{- $featherURL := "https://unpkg.com/feather-icons@4.29.2/dist/feather-sprite.svg" -}}
+{{- if not (.UseCDN | default false) -}}
+  {{- $featherURL = (resources.Get "svg/feather-sprite.svg" | fingerprint).RelPermalink -}}
+{{- end -}}
+<svg class="feather">
+  <use href="{{ printf "%s#%s" $featherURL .Icon }}" />
+</svg>
