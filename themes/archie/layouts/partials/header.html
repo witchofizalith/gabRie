@@ -12,7 +12,7 @@
 
     {{ if eq .Site.Params.mode "toggle" }}
       | <span id="dark-mode-toggle" onclick="toggleTheme()">
-        {{ template "feathericon" (dict "UseCDN" .Site.Params.useCDN "Icon" "sun") }}
+        {{ partial "feathericon" (dict "UseCDN" .Site.Params.useCDN "Icon" "sun") }}
       </span>
       <script src="{{ "js/themetoggle.js" | relURL }}"></script>
     {{ end }}
