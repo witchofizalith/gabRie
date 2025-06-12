@@ -1,28 +1,40 @@
-{{- define "feathericon" -}}
-  {{- $featherURL := "https://unpkg.com/feather-icons@4.29.2/dist/feather-sprite.svg" -}}
-  {{ if not (.UseCDN | default false) -}}
-    {{- $featherURL = (resources.Get "svg/feather-sprite.svg").RelPermalink
- -}}
-  {{- end -}}
-<svg class="feather">
-   <use href="{{ printf "%s#%s" $featherURL .Icon }}" />
-</svg>
-{{- end -}}
+<head lang="en">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+  
+  <!-- Open Graph -->
+  <meta property="og:image" content="{{ with .Params.images }}{{ index . 0 | absURL }}{{ else }}{{ .Site.Params.og_image | absURL }}{{ end }}" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:site_name" content="{{ .Site.Title }}" />
+  <meta property="og:title" content="{{ .Title }}" />
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
 
-<header>
-	<div class="main">
-		<a href="{{ absLangURL "/" }}" class="site-logo-link">
-  <img src="/images/logo.png" alt="Logo" class="site-logo">
-  <span class="site-title-text">{{ .Site.Title }}</span>
-</a>
-	</div>
-	<nav>
-		{{ range .Site.Menus.main }}
-		<a href="{{ .URL }}">{{ .Name }}</a>
-		{{ end }}
-		{{ if eq .Site.Params.mode "toggle" -}}
-	| <span id="dark-mode-toggle" onclick="toggleTheme()">{{template "feathericon" (dict "UseCDN" .Site.Params.useCDN "Icon" "sun") }}</span>
-		<script src="{{ absURL "js/themetoggle.js" }}"></script>
-		{{ end }}
-	</nav>
-</header>
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{ .Site.Title }}" />
+  <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+
+  <!-- RSS feed -->
+  <link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | absURL }}" title="{{ .Site.Title }}" />
+
+  <!-- Stylesheets -->
+  {{/* Use Hugo resources and fingerprint for cache busting */}}
+  {{ $fonts := resources.Get "css/fonts.css" | fingerprint }}
+  <link href="{{ $fonts.RelPermalink }}" rel="stylesheet" />
+
+  {{ $main := resources.Get "css/main.css" | fingerprint }}
+  <link href="{{ $main.RelPermalink }}" rel="stylesheet" />
+
+  {{ $dark := resources.Get "css/dark.css" | fingerprint }}
+  <link id="darkModeStyle" href="{{ $dark.RelPermalink }}" rel="stylesheet" media="(prefers-color-scheme: dark)" />
+
+  {{ $custom := resources.Get "css/custom.css" | fingerprint }}
+  <link href="{{ $custom.RelPermalink }}" rel="stylesheet" />
+
+</head>
+
