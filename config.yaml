@@ -1,0 +1,35 @@
+baseURL: https://example.com
+languageCode: en-us
+title: gabRie
+theme: archie
+copyright: ©gabRie
+pygmentsstyle: monokai
+pygmentscodefences: yes
+pygmentscodefencesguesssyntax: yes
+params:
+  mode: auto
+  social:
+    - icon: github
+      name: GitHub
+      url: https://github.com/witchofizalith
+    - icon: linkedin
+      name: LinkedIn
+      url: https://linkedin.com/in/gabrielle-magalhaes-ulloa/
+  subtitle: A blog for exploring data science & STEM education
+  useCDN: no
+  customCSS:
+    - css/custom.css
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Blog Posts
+      url: /posts
+      weight: 2
+    - name: About Me
+      url: /about
+      weight: 3
+    - name: Tags
+      url: /tags
+      weight: 4

@@ -1,0 +1,26 @@
+{
+    "id": "A0557FB5",
+    "path": "~/my-site/config.yaml",
+    "project_path": "config.yaml",
+    "type": "yaml",
+    "hash": "435383821",
+    "contents": "",
+    "dirty": false,
+    "created": 1749742497692.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "23,16",
+        "scrollLine": "14"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1749750670,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1749750670161,
+    "read_only": false,
+    "read_only_alternatives": []
+}

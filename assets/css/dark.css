@@ -1,0 +1,134 @@
+body {
+  color: #4a2c2a;
+  background-color: #fdfaf6;
+}
+
+::-moz-selection {
+  background: #f4a5ae;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #f4a5ae;
+  color: #fff;
+  text-shadow: none;
+}
+
+hr {
+  border-top: 3px dotted #f2d0d9;
+}
+
+code {
+  background-color: #fde8ef;
+  color: #4a2c2a;
+  font-weight: bold;
+  padding: 0.1em 0.2em;
+}
+
+pre {
+  background-color: #fff0f5;
+  line-height: 1.4;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+blockquote {
+  border-color: #f4a5ae;
+  color: #4a2c2a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4a2c2a;
+}
+
+h1::before { color: #f4a5ae; content: "# "; }
+h2::before { color: #f4a5ae; content: "## "; }
+h3::before { color: #f4a5ae; content: "### "; }
+h4::before { color: #f4a5ae; content: "#### "; }
+h5::before { color: #f4a5ae; content: "##### "; }
+h6::before { color: #f4a5ae; content: "###### "; }
+
+.toc {
+  background-color: #fef2f4;
+  color: #4a2c2a;
+}
+
+a {
+  border-bottom: 2px solid #f4a5ae;
+  color: #4a2c2a;
+}
+
+a:hover {
+  background-color: #fddde6;
+  color: #4a2c2a;
+}
+
+.site-description a {
+  color: #4a2c2a;
+}
+
+.site-description a:hover {
+  color: #000;
+}
+
+.tags a {
+  border-bottom: 2px solid #f4a5ae;
+}
+
+.tags a:hover {
+  background-color: #fddde6;
+  color: #4a2c2a;
+}
+
+.site-title a {
+  color: #4a2c2a;
+  text-decoration: none !important;
+}
+
+.header nav,
+.footer {
+  border-color: #f2d0d9;
+}
+
+.highlight {
+  background-color: #fef0f5;
+}
+
+.soc:hover {
+  color: #4a2c2a;
+}
+
+.draft-label {
+  color: #fff;
+  background-color: #f4a5ae;
+}
+
+/* Language labels */
+.highlight pre code[class*="language-"]::before {
+  background: #f4a5ae;
+  color: #4a2c2a;
+}
+
+/* Callouts */
+.callout-alert {
+  color: #4a2c2a;
+  background-color: #fff3f3;
+  border-color: #f66;
+}
+
+.callout-tip {
+  color: #4a2c2a;
+  background-color: #fffaf0;
+  border-color: #f4a5ae;
+}
+
+.callout-warning {
+  color: #4a2c2a;
+  background-color: #fffaf0;
+  border-color: #fdd69f;
+}
+
+.callout-custom {
+  color: #4a2c2a;
+}

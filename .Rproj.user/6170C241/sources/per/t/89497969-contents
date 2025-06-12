@@ -1,0 +1,26 @@
+.site-logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 12px;
+}
+
+.site-logo {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  display: inline-block; 
+  height: 6rem; !important        /* or try 40px */
+  width: auto;
+  max-width: 100%;      /* just in case */
+  max-height: 3rem;     /* prevent it from growing too tall */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.site-title-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: inherit; /* Inherits current theme text color */
+}
