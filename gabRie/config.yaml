@@ -1,4 +1,4 @@
-baseURL: https://example.com
+baseURL: gabrie.netlify.app #update this when you update your URL
 languageCode: en-us
 title: gabRie
 theme: archie
