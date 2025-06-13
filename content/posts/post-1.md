@@ -2,7 +2,7 @@
 date: "2025-06-12"
 description: A blog in the making
 tags:
-- Chatting
+- Introduction
 title: 'A blog in the making'
 ---
 
