@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>gabRie</title>
-    <link>gabrie.netlify.app/</link>
+    <link>https://gabrie.netlify.app/</link>
     <description>Recent content on gabRie</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>©gabRie</copyright>
     <lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="gabrie.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gabrie.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A blog in the making</title>
-      <link>gabrie.netlify.app/posts/post-1/</link>
+      <link>https://gabrie.netlify.app/posts/post-1/</link>
       <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>gabrie.netlify.app/posts/post-1/</guid>
+      <guid>https://gabrie.netlify.app/posts/post-1/</guid>
       <description>&lt;p&gt;Whoa!&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>gabrie.netlify.app/about/</link>
+      <link>https://gabrie.netlify.app/about/</link>
       <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>gabrie.netlify.app/about/</guid>
+      <guid>https://gabrie.netlify.app/about/</guid>
       <description>&lt;p&gt;Welcome!&lt;/p&gt;&#xA;&lt;p&gt;My name is Gabrielle Magalhães Ulloa and I am currently a PhD candidate in the Graduate Program for Neuroscience at&#xA;Boston University. I&amp;rsquo;m also a data scientist, and I intend to use this website to share about the data analysis projects&#xA;I am working on for my thesis and professional development! My thesis research is focused on the neural circuity underlying&#xA;decision-making and learning across development, particularly during the window of adolescence into adulthood.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>gabrie.netlify.app/archives/</link>
+      <link>https://gabrie.netlify.app/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      <guid>gabrie.netlify.app/archives/</guid>
+      <guid>https://gabrie.netlify.app/archives/</guid>
       <description></description>
     </item>
   </channel>
