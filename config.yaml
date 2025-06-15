@@ -15,7 +15,7 @@ params:
     - icon: linkedin
       name: LinkedIn
       url: https://linkedin.com/in/gabrielle-magalhaes-ulloa/
-  subtitle: A blog for exploring data science & STEM education
+  subtitle: A blog for all things data 
   useCDN: no
   customCSS:
     - css/custom.css
