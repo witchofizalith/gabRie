@@ -10,11 +10,11 @@
     <lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gabrie.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A blog in the making</title>
+      <title>A Formal Introduction</title>
       <link>https://gabrie.netlify.app/posts/post-1/</link>
       <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://gabrie.netlify.app/posts/post-1/</guid>
-      <description>&lt;p&gt;Whoa!&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hello! Welcome to gabRie, my blog for exploring all things related to data!&#xA;I have created an &lt;a href=&#34;https://gabrie.netlify.app/about/&#34;&gt;about page&lt;/a&gt; which includes&#xA;a short biography and various places you can find me across the internet.&lt;/p&gt;&#xA;&lt;p&gt;Since this is my first professional blog post ever, I&amp;rsquo;ll go ahead and restate some of things in my about page with a few fun extra details.&lt;/p&gt;&#xA;&lt;p&gt;As of writing this, I&amp;rsquo;m a PhD candidate in neuroscience! My specialty is in a subdomain of neuroscience referred to as systems neuroscience, or&#xA;depending on who you ask, behavioral neuroscience.  The common thread between both systems and behavioral neuroscience is a fascination&#xA;with figuring out how neural circuits make behavior happen. Yet another term for that domain of interest is neuroethology- the formal study of how&#xA;neural systems create behavior. While there&amp;rsquo;s a lot of back and forth about what we should call ourselves, I consider myself a neuroscientist&#xA;who identifies with &lt;em&gt;all&lt;/em&gt; of those titles.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>

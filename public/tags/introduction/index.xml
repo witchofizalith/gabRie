@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on gabRie</title>
-    <link>https://gabrie.netlify.app/posts/</link>
-    <description>Recent content in Posts on gabRie</description>
+    <title>Introduction on gabRie</title>
+    <link>https://gabrie.netlify.app/tags/introduction/</link>
+    <description>Recent content in Introduction on gabRie</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>©gabRie</copyright>
     <lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gabrie.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gabrie.netlify.app/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Formal Introduction</title>
       <link>https://gabrie.netlify.app/posts/post-1/</link>

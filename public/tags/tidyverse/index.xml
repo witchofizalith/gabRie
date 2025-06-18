@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tidyverse on gabRie</title>
+    <link>https://gabrie.netlify.app/tags/tidyverse/</link>
+    <description>Recent content in Tidyverse on gabRie</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>©gabRie</copyright>
+    <lastBuildDate>Fri, 13 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gabrie.netlify.app/tags/tidyverse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(X) things I always Google while making ggplot 2 graphs</title>
+      <link>https://gabrie.netlify.app/posts/post-2/</link>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://gabrie.netlify.app/posts/post-2/</guid>
+      <description>&lt;h3 id=&#34;how-do-i-change-the-font-size-of-the-axis-labels&#34;&gt;How do I change the font size of the axis labels?&lt;/h3&gt;&#xA;&lt;p&gt;No one likes axis labels that are ridiculously small in comparsion to the rest of the graph. To change the font size of&#xA;your axis labels using ggplot2,&lt;/p&gt;&#xA;&lt;p&gt;&amp;lsquo;&amp;rsquo;&amp;rsquo;{r} &amp;rsquo;&amp;rsquo;&#39;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
